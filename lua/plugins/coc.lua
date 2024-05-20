@@ -137,6 +137,7 @@ function M.config()
     -- coc popups highlight after colorscheme
     vim.cmd('hi CocSearch ctermfg=12 guifg=#18A3FF')
     vim.cmd('hi CocMenuSel ctermbg=128 guibg=#13354A')
+    vim.cmd('hi CocFloating ctermbg=236 guibg=#303030')
 
     vim.keymap.set('n', '<space>e', [[:CocCommand explorer<CR>]], { silent = true, noremap = true })
     vim.keymap.set('n', '<F9>', ':CocCommand git.browserOpen<CR>', { silent = true })

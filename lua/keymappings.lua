@@ -6,3 +6,6 @@ vim.keymap.set('n', 'gp', ':bprev<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<C-d>', ':bd<CR>', { noremap = true, silent = true })
 
 vim.keymap.set('n', '<leader>cf', [[:let @*=expand('%:p')<CR>]], { noremap = true, silent = true })
+
+-- F2 A
+vim.keymap.set('n', '<F2>', ':Format<CR>', { noremap = true, silent = true })
