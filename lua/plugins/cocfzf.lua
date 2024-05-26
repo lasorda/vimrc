@@ -9,6 +9,7 @@ function M.config()
     vim.keymap.set('n', '<space>j', ':<C-u>CocNext<CR>', { silent = true, nowait = true })
     vim.keymap.set('n', '<space>k', ':<C-u>CocPrev<CR>', { silent = true, nowait = true })
     vim.keymap.set('n', '<space>p', ':<C-u>CocFzfListResume<CR>', { silent = true, nowait = true })
+    vim.keymap.set('n', '<space>d', ':<C-u>CocFzfList diagnostics<CR>', { silent = true, nowait = true })
 end
 
 return M
