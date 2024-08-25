@@ -1,0 +1,17 @@
+CompileFlags:
+  Add: [
+    -Werror,
+    -Wall,
+    -Winconsistent-missing-override,
+    -Wignored-qualifiers,
+    -Wsign-compare,
+    -Wpessimizing-move,
+    -Wformat,
+    -Wrange-loop-construct,
+    -Wwritable-strings,
+    -Wmissing-field-initializers,
+    -Wreturn-type,
+    -Wnon-pod-varargs,
+    -Wreserved-user-defined-literal,
+    -Wlogical-op-parentheses,
+]

@@ -48,6 +48,7 @@ require('packer').startup(function(use)
             },
             {
                 'junegunn/fzf',
+                tag = '0.52.1',
                 run = 'cd ~/.fzf && ./install --all && go build . && mv fzf bin',
             }
         },
@@ -107,4 +108,5 @@ require('packer').startup(function(use)
         },
         config = Config('plugins.telescope')
     }
+    use { 'bazelbuild/vim-ft-bzl' }
 end)

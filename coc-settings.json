@@ -1,16 +1,19 @@
 {
-    "workspace.rootPatterns": [
-        ".git",
-        ".hg",
-        ".projections.json",
-        "mmsearch*"
-    ],
     "snippets.ultisnips.pythonPrompt": false,
     "git.addGBlameToVirtualText": true,
     "python.pythonPath": "python3",
     "inlayHint.enable": false,
     "callHierarchy.splitCommand": "botright 60vs",
     "explorer.icon.enableNerdfont": true,
+    "clangd.arguments": [
+        "-j=24"
+    ],
+    "explorer.root.strategies": [
+        "cwd",
+        "workspace",
+        "sourceBuffer",
+        "reveal"
+    ],
     "explorer.mouseMode": "singleclick",
     "explorer.file.root.template": "[icon] [title] [git & 1][hidden & 1][root]",
     "explorer.buffer.child.template": "[git | 2] [selection | 1] [bufnr] [name][modified][readonly]",
@@ -39,7 +42,7 @@
     ],
     "languageserver": {
         "proto": {
-            "command": "pls",
+            "command": "protobuf-language-server",
             "filetypes": [
                 "proto",
                 "cpp"

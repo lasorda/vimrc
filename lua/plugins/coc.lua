@@ -16,7 +16,6 @@ function M.config()
         'coc-git',
         'coc-tsserver',
         'coc-explorer',
-        'coc-lua',
         'coc-rust-analyzer',
     }
 
