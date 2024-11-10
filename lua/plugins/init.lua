@@ -87,10 +87,6 @@ require('packer').startup(function(use)
         config = Config('plugins.DoxygenToolkit')
     }
     use {
-        'madox2/vim-ai',
-        config = Config('plugins.vim-ai')
-    }
-    use {
         'Civitasv/cmake-tools.nvim',
         requires = {
             'nvim-lua/plenary.nvim',
