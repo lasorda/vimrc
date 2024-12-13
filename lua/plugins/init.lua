@@ -79,8 +79,8 @@ require('packer').startup(function(use)
         config = Config('plugins.vim-cpp-modern')
     }
     use {
-        'junegunn/rainbow_parentheses.vim',
-        config = Config('plugins.rainbow_parentheses')
+        'luochen1990/rainbow',
+        config = Config('plugins.rainbow')
     }
     use {
         'vim-scripts/DoxygenToolkit.vim',

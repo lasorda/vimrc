@@ -1,8 +1,8 @@
 {
     "snippets.ultisnips.pythonPrompt": false,
     "git.addGBlameToVirtualText": true,
-    "python.pythonPath": "python3",
     "inlayHint.enable": false,
+    "python.pythonPath": "python3",
     "callHierarchy.splitCommand": "botright 60vs",
     "explorer.icon.enableNerdfont": true,
     "clangd.arguments": [
@@ -55,6 +55,12 @@
             ],
             "filetypes": [
                 "sh"
+            ]
+        },
+        "Bazel": {
+            "command": "starpls",
+            "filetypes": [
+                "bzl"
             ]
         }
     }
