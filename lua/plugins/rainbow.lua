@@ -9,6 +9,7 @@ function M.config()
             'start=/(/ end=/)/ fold',
             'start=/\\[/ end=/\\]/ fold',
             'start=/{/ end=/}/ fold',
+            'start=/<\\S/ end=/>/ fold',
         }
     }
 end
