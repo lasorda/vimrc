@@ -105,4 +105,5 @@ require('packer').startup(function(use)
         config = Config('plugins.telescope')
     }
     use { 'bazelbuild/vim-ft-bzl' }
+    use { 'github/copilot.vim' }
 end)

@@ -17,6 +17,7 @@ function M.config()
         'coc-tsserver',
         'coc-explorer',
         'coc-rust-analyzer',
+        '@hexuhua/coc-copilot',
     }
 
     -- TextEdit might fail if hidden is not set.
