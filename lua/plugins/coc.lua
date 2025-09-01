@@ -18,6 +18,7 @@ function M.config()
         'coc-explorer',
         'coc-rust-analyzer',
         '@hexuhua/coc-copilot',
+        'coc-lua',
     }
 
     -- TextEdit might fail if hidden is not set.
